@@ -22,6 +22,11 @@
             <version>5.2.6.RELEASE</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework </groupId>
+            <artifactId>spring-core</artifactId>
+            <version>5.2.6.RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>3.17</version>
@@ -124,14 +129,14 @@
               <include>**/*.*</include>
            </includes>
         </resource>
-        <resource>
-        <targetPath></targetPath>
-            <directory>experimentresources/mazegame</directory>
-            <includes>
-              <include>**/*.*</include>
-              <include>**/*.*</include>
-           </includes>
-        </resource>
+<!--        <resource>-->
+<!--        <targetPath></targetPath>-->
+<!--            <directory>experimentresources/mazegame</directory>-->
+<!--            <includes>-->
+<!--              <include>**/*.*</include>-->
+<!--              <include>**/*.*</include>-->
+<!--           </includes>-->
+<!--        </resource>-->
         <resource>
             <targetPath>facetask/lists</targetPath>
             <directory>experimentresources/facetask/lists</directory>

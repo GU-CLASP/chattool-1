@@ -17,7 +17,7 @@ import java.util.Vector;
 
 
 
-public class TurnByTurn_Dyadic_SplitScreen extends DefaultConversationController{
+class TurnByTurn_Dyadic_SplitScreen extends DefaultConversationController{
 
     
     
@@ -47,7 +47,7 @@ public class TurnByTurn_Dyadic_SplitScreen extends DefaultConversationController
         
     }
    
-    
+
     
     
     
